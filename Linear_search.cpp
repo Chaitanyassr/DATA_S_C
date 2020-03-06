@@ -12,6 +12,11 @@ int search(int arr[], int n, int x){
 
 int main(void)
 {
+	cin >> sizeofarray;
+	for (int = i;i< sizeofarray; ++i){
+		cin >> arr[i];
+	}
+	cin >> x;
 	int n = sizeof(arr) / sizeof(arr[0]);
 	int result = search(arr, n, x);
 	if (result == -2)
