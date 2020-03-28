@@ -13,7 +13,10 @@ int binarySearch(int arr[], int p, int r, int num) {
    return -1; 
 } 
 int main(void) { 
-   int arr[] = {1, 3, 7, 15, 18, 20, 25, 33, 36, 40}; 
+   	cin >> sizeofarray;
+	for (int = i;i< sizeofarray; ++i){
+		cin >> arr[i];
+	}
    int n = sizeof(arr)/ sizeof(arr[0]); 
    int num = 33; 
    int index = binarySearch (arr, 0, n-1, num); 
